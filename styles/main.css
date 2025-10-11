@@ -343,6 +343,17 @@ body {
     font-size: 0.9rem;
 }
 
+.footer-beian {
+    color: var(--text-gray);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.footer-beian:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
 /* 响应式设计 */
 @media screen and (max-width: 992px) {
     .hero-content h1 {
